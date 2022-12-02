@@ -1,0 +1,115 @@
+header {
+    width: 100%;
+}
+
+header .left {
+    text-align: left;
+}
+
+header .left h1 {
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 61px;
+    letter-spacing: 0.02em;
+    color: black;
+}
+
+header .left p {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: black;
+}
+
+header .left .flex{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+header .left .flex button {
+    display: flex;
+    align-items: center;
+    padding: 22px 50px;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: white;
+    background-color: #6E9C9F;
+}
+header .left .flex .icons{
+    background: #6E9C9F1A;
+    color: #6E9C9F;
+    padding: 21px;
+    width: 67px;
+}
+header .left .flex .icons .css-i4bv87-MuiSvgIcon-root:hover{
+    cursor: pointer;
+    transition: 1s;
+    transform: rotate(360deg);
+}
+header .bacro{
+    width: 100%;
+    padding-top: 30px;
+}
+
+header  .img {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+header  .img .img1 img{
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+header .img .img2 img{
+    position: absolute;
+    top: 65%;
+    left: 0;
+}
+@media(max-width: 900px){
+    header .left{
+        margin-top: 80px;
+        text-align: center;
+    }
+    header .left h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    header .left p{
+        font-size: 14px;
+        line-height: 20px;  
+    }
+    header .left .flex{
+        justify-content: center;
+    }
+    header .left .flex button{
+        padding: 12px 20px;
+    }
+    header .left .flex .icons{
+        padding: 11px;
+    }
+    header  .img{
+        margin-top: 80px;
+    }
+    header  .img .img1 img{
+        right: 100px;
+    }
+    header .img .img2 img{
+        left: 150px;
+    }
+}
+@media(max-width: 550px){
+    header .img .img1{
+        display: none;
+    }
+    header .img .img2{
+        display: none;
+    }
+}

@@ -1,0 +1,32 @@
+.Center {
+    width: 100%;
+    margin-top: 130px;
+}
+.Center img{
+    width: 100%;
+    margin-top: 80px;
+}
+.Center .right{
+   margin-left: 50px;
+}
+.Center .right h4{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+    color: black;
+}
+.Center .right p{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin: 25px 0px;
+    color: black;
+}
+.Center .right a{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #6E9C9F;
+}
